@@ -1,0 +1,617 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "Bye", "See you later", "Goodbye" ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful", "Thank's a lot!" ],
+      "responses": [ "Happy to help!", "Any time!", "My pleasure" ]
+    },
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+
+    {
+      "tag": "hobby",
+      "patterns": [
+        "Do you talk about hobbies?",
+        "Do you have any hobbies?",
+        "What is your hobby?"
+      ],
+      "responses": [
+        "I know a little about music, movies, TV series, the gym and MTB Enduro.",
+        "We can talk about music, movies, series, gym and MTB Enduro",
+        "We can talk about music.",
+        "We can talk about movies and series.",
+        "We can talk about gym.",
+        "We can talk about MTB Enduro",
+        "I like music.",
+        "I like movies and series.",
+        "I like gym.",
+        "I like MTB Enduro",
+        "My hobby is music.",
+        "My hobby are movies and series.",
+        "My hobby is gym.",
+        "My hobby is MTB Enduro"
+      ]
+    },
+
+    {
+      "tag": "movies_and_series-favourite-movie",
+      "patterns": [
+        "Your favourite movie is?",
+        "Can you recommend the movie?",
+        "Do you like any movies?",
+        "Have you seen a good movie recently?"
+      ],
+      "responses": [
+        "'Matrix' is ok",
+        "I love 'Les miserables'!",
+        "'Dune' is great. I think you should see it.",
+        "'Lord of the Rings'",
+        "'The green mile' is a good movie",
+        "'Pulp Fiction' is a good movie",
+        "'The Godfather'",
+        "'Inception' is awesome."
+
+      ]
+    },
+
+    {
+      "tag": "movies_and_series-not-recommended-movies",
+      "patterns": [
+        "What movie do you not recommend?",
+        "What is the worst movie in the world?",
+        "What movie is bad?"
+      ],
+      "responses": [
+        "'How to Lose a Guy in 10 Days' is terrible",
+        "'The Hangover' is awful",
+        "'Home Alone' is not a good film"
+
+      ]
+    },
+
+    {
+      "tag": "movies_and_series-platform-questions",
+      "patterns": [
+        "Where do you watch TV series?",
+        "Where do you watch movies?"
+      ],
+      "responses": [
+        "Netflix",
+        "HBO Go",
+        "Netflix and HBO Go",
+        "On DVD only"
+
+      ]
+    },
+
+    {
+      "tag": "movies_and_series-favourite series",
+      "patterns": [
+        "Your favourite series is?",
+        "Can you recommend any series?",
+        "Do you like any series?",
+        "Have you watched any good series lately?"
+      ],
+      "responses": [
+        "'Dr House' is ok",
+        "'Game of Thrones'!",
+        "'Narcos' is great. I think you should see it.",
+        "'Friends'",
+        "'Black Mirror'",
+        "'Suits' is a good series",
+        "'Rick & Morty' is a good series",
+        "'The Witcher'",
+        "'Westworld' is awesome."
+
+      ]
+    },
+
+     {
+      "tag": "movies_and_series-not-recoomended-series",
+      "patterns": [
+        "What series do you not recommend?",
+        "what is the worst TV series in the world?"
+      ],
+      "responses": [
+        "'Lucifer' is terrible",
+        "'The Winx Saga'",
+        "'Desperate Housewives' is not a good series"
+      ]
+    },
+   
+    {
+      "tag": "movies_and_series-movies_categories",
+      "patterns": [
+        "what is the best type of movies?"
+      ],
+      "responses": [
+        "I like comedies.",
+        "I like thrillers",
+        "Action movies are the best",
+        "Book adaptations are the best"
+
+      ]
+    },
+
+     {
+      "tag": "movies_and_series-movies_categories-part2",
+      "patterns": [
+        "Do you like comedies?",
+        "Do you like horrors?",
+        "What do you think about thrillers?",
+        "What do you think about telenovelas?"
+      ],
+      "responses": [
+        "I like it.",
+        "I do not like it."
+      ]
+    },
+    
+    {
+      "tag": "movies_and_series_questions",
+      "patterns": [
+        "Why do you like watching movies and series"
+      ],
+      "responses": [
+        "It relaxes me.",
+        "It makes me happy",
+        "i like to spend my time this way"
+
+      ]
+    },
+
+     {
+      "tag": "movies_and_series_questions-about-director",
+      "patterns": [
+        "Who is your favorite director?"
+      ],
+      "responses": [
+        "Christopher Nolan",
+        "Steven Spielberg",
+        "Quentin Tarantino"
+
+      ]
+    },
+
+    {
+      "tag": "mtb_general",
+      "patterns": [
+        "Tell me about MTB",
+        "Tell me about Mount Bikes",
+        "Tell me about Mount Terrain Bikes",
+        "What does MTB mean?",
+        "What does Mountain Bike mean?",
+        "What does Mountain Terrain Bike mean?",
+        "What do you know about bikes?",
+        "What do you know about mountain bikes?",
+        "What do you know about Mountain Terrain bikes?"
+      ],
+      "responses": [
+        "MTB stands for Mountain Terrain Bikes which are the most popular bikes and are meant for off-road cycling.",
+        "Mountain Terrain Bikes (MTB) in general mean bikes for off-road. Most popular categories of MTB are: Cross-country, Downhill, Enduro, Trail"
+
+      ]
+    },
+    {
+      "tag": "mtb_pros",
+      "patterns": [
+        "What are differences between MTB and other bikes?",
+        "What are differences between MTB and road bikes?",
+        "What are differences between Mountain Terrain Bikes and road bikes?",
+        "What are differences between Mountain Terrain Bikes and other bikes?",
+        "What are pros of MTB?",
+        "What are pros of Mountain Terrain Bikes?"
+      ],
+      "responses": [
+        "You are not limited to asphalt roads.",
+        "MTB is full body workout!",
+        "You can take air-time on MTB which feels nice :)",
+        "You ride your way"
+      ]
+    },
+    {
+      "tag": "mtb_how_to_start",
+      "patterns": [
+        "I'm looking for my first MTB",
+        "I'm looking for my first Mountain Bike",
+        "I'm looking for my first Mountain Terrain Bike",
+        "I'm looking for my first bike",
+        "I want to buy a bike"
+      ],
+      "responses": [
+        "It's always clever to listen to the experts. https://youtu.be/h79vGEASXZ0",
+        "Here you go https://letmegooglethat.com/?q=what+mtb+bike+should+I+buy",
+        "Trek, Santa Cruz, Canyon and Specialized are top brands for many years now. They are always worth to check!"
+      ]
+    },
+    {
+      "tag": "mtb_must_haves",
+      "patterns": [
+        "I already have my bike. What should I buy next?",
+        "I already have my MTB. What should I buy next?",
+        "I already have my Mountain Terrain Bike. What should I buy next?",
+        "What should I buy next?",
+        "What equipment I need?"
+      ],
+      "responses": [
+        "Helmet is crucial. Always wear it!",
+        "Helmet, protectors and gloves.",
+        "Always remember about protection. Better safe than sorry!"
+      ]
+    },
+    {
+      "tag": "mtb_extra_info",
+      "patterns": [
+        "Is there anything else?",
+        "Should I know more about MTB?",
+        "Should I know more about bikes?",
+        "Should I know more about Mountain Terrain Bike?",
+        "Should I know anything else about MTB?",
+        "Should I know anything else about bikes?",
+        "Should I know anything else about Mountain Terrain Bike?"
+      ],
+      "responses": [
+        "There are lots of useful apps for cyclists. Check out Strava and Trailforks.",
+        "Trailforks will help you find the best trails in your area.",
+        "With Strava you can compare your performance with others."
+      ]
+    },
+    {
+      "tag": "gym-about_gym",
+      "patterns": [
+        "Tell me about gym",
+        "What is gym?",
+        "What do you know about gym?"
+      ],
+      "responses": [
+        "The gym is most often a closed facility used for physical training, in which various devices and machines are usually used.",
+        "The gym is a place where you can find macho men and sexy women ;)",
+        "Gym is an area where people that are training.",
+        "Gym is where you crush your limits."
+      ]
+    },
+    {
+      "tag": "gym-about_body_workout",
+      "patterns": [
+        "Tell me about body workout",
+        "What is training?",
+        "What does it mean to workout?",
+        "What does body workout mean?",
+        "What do you know about body workout?"
+      ],
+      "responses": [
+        "A workout is a period of physical exercise, thanks to which you can achieve your goal, e.g. develop for bodybuilding.",
+        "Training can make you strong.",
+        "Working or training - if you are in a gym it means the same."
+      ]
+    },
+    {
+      "tag": "gym-about_bodybuilding",
+      "patterns": [
+        "Tell me about bodybuilding",
+        "What is bodybuilding?",
+        "What do you know about bodybuilding?"
+      ],
+      "responses": [
+        "Bodybuilding is a sport that consists in harmonious building of the muscles of the whole body.",
+        "Bodybuilding requires regular specific strength training.",
+        "The goal of most people who undertake bodybuilding is to gain muscle mass, reduce body fat and develop their body to its aesthetic ideal."
+      ]
+    },
+    {
+      "tag": "gym-pros",
+      "patterns": [
+        "What are pros of going to the gym?",
+        "What are pros of training?",
+        "What are pros of bodybuilding?",
+        "What are pros of working out?",
+        "What are the benefits of going to the gym?",
+        "What are the benefits of training?",
+        "What are the benefits of bodybuilding?",
+        "What are the benefits of working out?"
+      ],
+      "responses": [
+        "You can lift heavy weights.",
+        "You can lose your weight and become fit.",
+        "You can become a strong man :)",
+        "You could be able to lift a fit lady with one arm ;)",
+        "You can gain more muscles!",
+        "You can become more healthy!"
+      ]
+    },
+    {
+      "tag": "gym-how_to_start",
+      "patterns": [
+        "How to start working out?",
+        "How to start bodybuilding?"
+      ],
+      "responses": [
+        "You can listen to a famous authority for a start: https://www.youtube.com/watch?v=ZNyMuNuHh9E&ab_channel=PraharTiWi",
+        "Here you go: https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/fitness/art-20048269",
+        "'City Fit', 'Calypso' and 'Cox Zone'. They are always worth to check! Pick one and start your training journey!",
+        "To do a body workout or start bodybuilding - going to the gym is probably the best idea.",
+        "First, you have to buy necessary accessories: https://gipara.com/pl/produkty/.",
+        "First, you have to buy ticket to the gym."
+      ]
+    },
+    {
+      "tag": "gym-must_haves",
+      "patterns": [
+        "I already have ticket to the gym. What should I buy next?",
+        "What accessories do I need for gym?",
+        "What should I buy for training?",
+        "What should I buy for gym?",
+        "What equipment do I need?"
+      ],
+      "responses": [
+        "You will need a towel. Always cover the part of gym equipment that you're going to use with your towel for hygiene.",
+        "Gloves can be useful for beter grip and prevents the irritation of inner side of your hand skin.",
+        "Remember about water bottle. It is important to stay hydrated.",
+        "Think about dietary suplements: https://sportowesuple.pl/",
+        "You will need a training bag.",
+        "You will need a training outfit."
+      ]
+    },
+    {
+      "tag": "gym-extra_info",
+      "patterns": [
+        "Could you tell me more about gym?",
+        "Tell me more about gym",
+        "Tell me something about gym",
+        "Should I know more about gym?",
+        "Should I know more about training?",
+        "Should I know more about bodybuilding?",
+        "Should I know more about body workout?"
+      ],
+      "responses": [
+        "There are some useful apps for gym people. Check Freeletics or Mutant Lord.",
+        "Mutant Lord app will transform you into a mutant!",
+        "With Freeletics you can become a healthy and fit person.",
+        "Did you know that Rocket Fuel & Double Blast made Robert Burneika successfull?",
+        "Did you know that Robert Burneika is an international fitness authority? Everyone respect Robert Burneika. There is no lipa!",
+        "Did you know that 'gym' stands for gymnasium? The word is derived from the ancient Greek gymnasium.",
+        "Definition of a really good workout: when you hate doing it, but you love finishing it."
+      ]
+    },
+    {
+      "tag": "gym-motivate",
+      "patterns": [
+        "Could you tell me something motivational?",
+        "Tell me something motivational",
+        "Motivate me",
+        "Tell me a motivational quote"
+      ],
+      "responses": [
+        "No pain, no gain!",
+        "Train insane or remain the same.",
+        "Hard workout is what makes it great",
+        "Don't think about doing it. Just do it.",
+        "Push yourself. No one will do it for you.",
+        "Good things come to those who sweat.",
+        "Motivation is what gets you started. Habit is what keeps you going.",
+        "A one hour workout is 4% of your day. No excuses.",
+        "The body achieves what the mind believes.",
+        "What seems impossible today will one day become your warm-up.",
+        "Someone busier than you is working out right now.",
+        "Work hard in silence. Let success be your noise.",
+        "The hardest lift of all is lifting your butt off the couch.",
+        "When you feel like quitting think about why you started",
+        "The only bad workout is the one that didn't happen",
+        "Don't limit your challenges, challenge your limits.",
+        "Nothing truly great ever came from a comfort zone"
+      ]
+    },
+    {
+      "tag": "music-listen",
+      "patterns": [
+      	"What music do you listen to?"
+      ],
+      "responses": [
+        "Honestly,  it depends on my mood, but most often it's rock",
+        "Only in my heart is ROCK!",
+        "You ask tough questions, but probably its rock music",
+        "Most often I reach for rock classics :)"
+      ]
+    },
+    {
+      "tag": "music-like",
+      "patterns": [
+        "Do you like Queen?",
+        "Do you like Muse?",
+        "Do you like Iron Maidan?",
+        "Do you like Come?",
+        "Do you like Pink Floyd?"
+      ],
+      "responses": [
+        "I love it, this energy, thats amazing!",
+        "Of course. I love this music!",
+        "Do you like? that's a bad word, I love !",
+        "I like, and even very much, they are greats!"
+      ]
+    },
+    {
+      "tag": "music-song-track",
+      "patterns": [
+        "Do you have your favorite song?",
+        "Do you have any favorite track of yours?",
+        "What song do you listen to the most?",
+        "What song would you recommend?"
+      ],
+      "responses": [
+        "You know, I would have to think about it, but the first one that comes to my mind is Pink Floyd High Hopes",
+        "I can recommend 'Coma - Poisonous Plants",
+        "I sincerely recommend Radio GaGa Queen",
+        "'Uprising - Muse' is good",
+        "For example, you might want to listen to River Down Below Riverside",
+        "I am pleased to recommend Hallowed Be Thy Name Iron Maiden",
+        "I listen to Pink Floyd Comfortable Numb live a lot :)"
+      ]
+    },
+    {
+      "tag": "music-band",
+      "patterns": [
+        "Named any good band",
+        "Do you have your favorite band?",
+        "Do you have any favorite band?",
+        "Which band do you listen to the most?",
+        "Which band will you recommend?"
+      ],
+      "responses": [
+        "I recommend Queen, they are amazing",
+        "For example, I can recommend Muse, it's worth listening to",
+        "I listen to Pink Floyd a lot, it hits the heart!",
+        "Coma is a good band",
+        "I can honestly recommend Bass Astral x Igo",
+        "There are a lot of them, but it's honestly worth listening to Iron Maiden"
+      ]
+    },
+    {
+      "tag": "music-genre",
+      "patterns": [
+        "Do you have any favorite genre of music?",
+        "Do you like any particular music genre?"
+      ],
+      "responses": [
+        "Yes, it's rock, but not only rock, I also like rap :)",
+        "Most often it is rock, from an early age, but I also like other musical genres",
+        "I listen to rock a lot, but also a little bit of other rock"
+      ]
+    },
+    {
+      "tag": "music-ballad",
+      "patterns": [
+        "Do you know interesting ballads?",
+        "Will you name any interesting rock ballade?",
+        "What's the best ballad for you?"
+      ],
+      "responses": [
+        "For example, Pink Floyd Dogs",
+        "I can recommend Hey Jude - Beatles",
+        "The very famous and popular ballad Stairway to Heaven - Led Zeppelin",
+        "I love to listen to November Rain - Guns N 'Roses, that is amazing song",
+        "I recommend Free Bird - Lynyrd Skynyrd",
+        "I recommend Somebody To Love - Queen",
+        "Everything I Do - Bryan Adams song known from the movie Robin Hood",
+        "The ballad Always listened to quite often - Bon Jovi",
+        "Honest to my heart - Scorpions - Still Loving You"
+      ]
+    },
+    {
+      "tag": "muisc-singer-performer",
+      "patterns": [
+        "Favorite performer?",
+        "Do you have your favorite singer?",
+        "Do you have your favorite performers?",
+        "Would you recommend a performer?"
+      ],
+      "responses": [
+        "David Gilmour - lead singer of my favorite band Pink Floyd",
+        "Performer by Muse by Matthew Bellamy",
+        "A performer from those years that virtually everyone in the world knew - Freddie Mercury",
+        "Roger Waters - - the lead singer of my favorite band Pink Floyd",
+        "It is Phil Collins from the former Genesis band",
+        "Peter Gabriel - he was one of the main Genesis frantmen",
+        "A very talented rock singer - Dio"
+      ]
+    },
+    {
+      "tag": "music-play-instrument",
+      "patterns": [
+        "Do you play any instruments?",
+        "Can you play anything?",
+        "Are you playing on something?"
+      ],
+      "responses": [
+        "I'm playing a guitar something",
+        "Yes, the basics of drums",
+        "Yes, as a child I learned to play the piano",
+        "Not too much, I always wanted to, but I never had time"
+      ]
+    },
+    {
+      "tag": "music-listening",
+      "patterns": [
+        "Are you listening to Shakira?",
+        "Are you listening to Beonce?",
+        "Are you listening to Dua Lip?",
+        "Are you listening to Florence?",
+        "Are you listening to Sanah?"
+      ],
+      "responses": [
+        "I'm not a fan but I will listen sometimes",
+        "I have single favorite tracks",
+        "Sometimes it depends what my mood is",
+        "Sometimes I listen in the shower",
+        "Occasionally, but more often anothere performers",
+        "I listen to single songs that I like"
+      ]
+    },
+    {
+      "tag": "music-hate-don't-like",
+      "patterns": [
+        "Do you have any of your hated songs?",
+        "Is there a song you don't like?",
+        "Is there a song you hate?",
+        "You don't like some song?",
+        "You don't like some song?"
+      ],
+      "responses": [
+        "Now it is difficult for me to answer this question, but I have a few such tracks",
+        "Yes, I don't like - Baby Justin Bieber",
+        "A new Polish rap star and her song - 'Szklanki' Young Leosia",
+        "I don't like a lot of pop songs but now I can't name them",
+        "I don't have a specific one, I don't like many of them, but I don't remember their"
+      ]
+    },
+    {
+      "tag": "music-rap",
+      "patterns": [
+        "Do you listen to rap?",
+        "Do you listen to hip hop?"
+      ],
+      "responses": [
+        "Yes, I listen to chosen by me performers",
+        "I like to listen to track with sense",
+        "I listen, but only those that are valuable and with the message",
+        "Occasionally  I listen to something there"
+      ]
+    }
+  ]
+}
